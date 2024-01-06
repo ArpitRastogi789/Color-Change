@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 97%;
+    height: 92vh;
+    border: 20px groove darkgoldenrod;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.child{
+    color: wheat;
+    background-color: rgb(24, 24, 53);
+    height: 300px;
+    width: 300px;
+    border: 10px groove rgb(130, 22, 22);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 10%;
+    margin-left: 40%; */
+}
